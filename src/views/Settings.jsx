@@ -10,6 +10,8 @@ export const searchEngines = {
   bing: "https://www.bing.com/search?q=%s",
   ddg: "https://duckduckgo.com/?q=%s",
   brave: "https://search.brave.com/search?q=%s",
+  yahoo: "https://search.yahoo.com/search?p=%s",
+  togoda: "https://togoda.com/search?query=%s",
 };
 
 function Settings() {
@@ -173,6 +175,8 @@ function Settings() {
               <option value="bing">Bing</option>
               <option value="ddg">DuckDuckGo</option>
               <option value="brave">Brave</option>
+              <option value="yahoo">Yahoo</option>
+              <option value="togoda">Togoda</option>
             </select>
           </Card>
           <Card
