@@ -190,6 +190,10 @@ function Search() {
                 ? "DuckDuckGo"
                 : localStorage.getItem("searchEngine") === "brave"
                 ? "Brave"
+                : localStorage.getItem("searchEngine") === "yahoo"
+                ? "Yahoo"
+                : localStorage.getItem("searchEngine") === "togoda"
+                ? "Togoda"
                 : localStorage.getItem("searchEngine")
             }`}
           />
